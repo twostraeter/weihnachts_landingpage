@@ -26,7 +26,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    background: black;
+  background-image: url(hintergrund.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -42,6 +45,13 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.wrapper {
+  display: flex;
+  margin: 10em auto;
+  height: 500px;
+  width: 100%;
 }
 
 .snow, .snow:before, .snow:after {
