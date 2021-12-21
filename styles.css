@@ -83,6 +83,7 @@ table {
     background-size: 600px 600px;
     animation: snow 3s linear infinite;
     content: "";
+    z-index: -2;
   }
   
   .snow:after {
