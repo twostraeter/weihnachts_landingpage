@@ -53,17 +53,17 @@ table {
 .wrapper {
   display: flex;
   flex-direction: column;
-  margin: 5em auto;
+  margin: 5rem auto;
   height: 100vh;
   width: 100%;
 }
 
 .video-wrapper {
-  margin: 6em auto 5em auto;
+  margin: 6rem auto 5rem auto;
 }
 
 .video-wrapper-mobile {
-  margin: 8em auto 2em auto;
+  margin: 8rem auto 2em auto;
 }
 
 .logo {
