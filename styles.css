@@ -48,6 +48,8 @@ table {
 	border-spacing: 0;
 }
 
+/* Flex-Wrapper */
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -74,48 +76,490 @@ table {
   margin: 3em auto;
 }
 
-.snow, .snow:before, .snow:after {
-    position: absolute;
-    top: -600px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-image: radial-gradient(3px 3px at 78px 166px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 63px 361px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 64px 58px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 416px 351px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 26px 390px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 100px 30px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 13px 75px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 560px 330px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 224px 596px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 316px 52px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 373px 216px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 519px 259px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 83px 202px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 480px 281px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 492px 436px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 168px 296px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 82px 384px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 288px 369px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 458px 71px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 84px 191px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 108px 440px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 178px 554px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 125px 252px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 454px 256px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 184px 316px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 135px 31px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 583px 153px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 594px 489px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 399px 500px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 589px 432px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 14px 184px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 503px 126px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 294px 169px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 592px 184px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 26px 205px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 39px 312px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 251px 337px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 514px 111px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 594px 335px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 337px 174px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 76px 327px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 149px 140px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 391px 388px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 361px 553px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 57px 213px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 284px 327px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 460px 291px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 292px 307px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 136px 515px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 216px 233px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 178px 558px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 258px 344px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 375px 140px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 29px 539px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 470px 67px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 36px 530px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 561px 352px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 537px 124px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 206px 373px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 348px 146px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 31px 554px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 510px 128px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 356px 356px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 58px 328px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 11px 433px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 266px 311px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 563px 573px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 212px 403px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 460px 237px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 457px 179px, white 50%, rgba(0, 0, 0, 0));
-    background-size: 600px 600px;
-    animation: snow 3s linear infinite;
-    content: "";
-    z-index: -2;
-  }
-  
-  .snow:after {
-    margin-left: -200px;
-    opacity: 0.4;
-    animation-duration: 6s;
-    animation-direction: reverse;
-    filter: blur(3px);
-  }
-  
-  .snow:before {
-    animation-duration: 9s;
-    animation-direction: reverse;
-    margin-left: -300px;
-    opacity: 0.65;
-    filter: blur(1.5px);
-  }
-  
-  @keyframes snow {
-    to {
-      transform: translateY(600px);
-    }
-  }
-  @media screen and (min-width:811px) {
-    .video-wrapper-mobile { 
-       display: none; 
-     }
- }
+.snowflake {
+  --size: 1vw;
+  width: var(--size);
+  height: var(--size);
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -5vh;
+  z-index: -2;
+}
 
-  @media screen and (max-width:810px) {
-       .video-wrapper { 
-          display: none; 
-        }
+@keyframes snowfall {
+  0% {
+    transform: translate3d(var(--left-ini), 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--left-end), 110vh, 0);
+  }
+}
+
+.snowflake:nth-child(1) {
+  --size: 1vw;
+  --left-ini: -1vw;
+  --left-end: -5vw;
+  left: 32vw;
+  animation: snowfall 11s linear infinite;
+  animation-delay: -10s;
+}
+
+.snowflake:nth-child(2) {
+  --size: 0.6vw;
+  --left-ini: 8vw;
+  --left-end: 10vw;
+  left: 50vw;
+  animation: snowfall 14s linear infinite;
+  animation-delay: -6s;
+}
+
+.snowflake:nth-child(3) {
+  --size: 1vw;
+  --left-ini: 10vw;
+  --left-end: 4vw;
+  left: 63vw;
+  animation: snowfall 8s linear infinite;
+  animation-delay: -10s;
+}
+
+.snowflake:nth-child(4) {
+  --size: 0.8vw;
+  --left-ini: -7vw;
+  --left-end: 10vw;
+  left: 47vw;
+  animation: snowfall 14s linear infinite;
+  animation-delay: -8s;
+}
+
+.snowflake:nth-child(5) {
+  --size: 1vw;
+  --left-ini: -9vw;
+  --left-end: 0vw;
+  left: 13vw;
+  animation: snowfall 8s linear infinite;
+  animation-delay: -5s;
+}
+
+.snowflake:nth-child(6) {
+  --size: 1vw;
+  --left-ini: -7vw;
+  --left-end: 5vw;
+  left: 61vw;
+  animation: snowfall 10s linear infinite;
+  animation-delay: -1s;
+}
+
+.snowflake:nth-child(7) {
+  --size: 0.6vw;
+  --left-ini: 0vw;
+  --left-end: 0vw;
+  left: 55vw;
+  animation: snowfall 9s linear infinite;
+  animation-delay: -9s;
+}
+
+.snowflake:nth-child(8) {
+  --size: 0.4vw;
+  --left-ini: 1vw;
+  --left-end: -9vw;
+  left: 37vw;
+  animation: snowfall 14s linear infinite;
+  animation-delay: -1s;
+}
+
+.snowflake:nth-child(9) {
+  --size: 0.2vw;
+  --left-ini: -7vw;
+  --left-end: -6vw;
+  left: 99vw;
+  animation: snowfall 13s linear infinite;
+  animation-delay: -8s;
+}
+
+.snowflake:nth-child(10) {
+  --size: 0.2vw;
+  --left-ini: -2vw;
+  --left-end: 2vw;
+  left: 20vw;
+  animation: snowfall 11s linear infinite;
+  animation-delay: -6s;
+}
+
+.snowflake:nth-child(11) {
+  --size: 1vw;
+  --left-ini: 4vw;
+  --left-end: 5vw;
+  left: 60vw;
+  animation: snowfall 12s linear infinite;
+  animation-delay: -7s;
+}
+
+.snowflake:nth-child(12) {
+  --size: 0.8vw;
+  --left-ini: -8vw;
+  --left-end: 4vw;
+  left: 25vw;
+  animation: snowfall 6s linear infinite;
+  animation-delay: -4s;
+}
+
+.snowflake:nth-child(13) {
+  --size: 0.2vw;
+  --left-ini: -6vw;
+  --left-end: 8vw;
+  left: 30vw;
+  animation: snowfall 7s linear infinite;
+  animation-delay: -10s;
+}
+
+.snowflake:nth-child(14) {
+  --size: 0.6vw;
+  --left-ini: -5vw;
+  --left-end: 5vw;
+  left: 41vw;
+  animation: snowfall 8s linear infinite;
+  animation-delay: -10s;
+}
+
+.snowflake:nth-child(15) {
+  --size: 0.2vw;
+  --left-ini: -1vw;
+  --left-end: 1vw;
+  left: 72vw;
+  animation: snowfall 9s linear infinite;
+  animation-delay: -5s;
+}
+
+.snowflake:nth-child(16) {
+  --size: 0.8vw;
+  --left-ini: 0vw;
+  --left-end: 2vw;
+  left: 11vw;
+  animation: snowfall 11s linear infinite;
+  animation-delay: -8s;
+}
+
+.snowflake:nth-child(17) {
+  --size: 0.4vw;
+  --left-ini: -7vw;
+  --left-end: 2vw;
+  left: 54vw;
+  animation: snowfall 6s linear infinite;
+  animation-delay: -2s;
+}
+
+.snowflake:nth-child(18) {
+  --size: 0.8vw;
+  --left-ini: 10vw;
+  --left-end: 2vw;
+  left: 41vw;
+  animation: snowfall 6s linear infinite;
+  animation-delay: -4s;
+}
+
+.snowflake:nth-child(19) {
+  --size: 1vw;
+  --left-ini: 10vw;
+  --left-end: -7vw;
+  left: 45vw;
+  animation: snowfall 7s linear infinite;
+  animation-delay: -4s;
+}
+
+.snowflake:nth-child(20) {
+  --size: 0.8vw;
+  --left-ini: 2vw;
+  --left-end: 6vw;
+  left: 95vw;
+  animation: snowfall 8s linear infinite;
+  animation-delay: -1s;
+}
+
+.snowflake:nth-child(21) {
+  --size: 0.4vw;
+  --left-ini: 1vw;
+  --left-end: 7vw;
+  left: 35vw;
+  animation: snowfall 11s linear infinite;
+  animation-delay: -3s;
+}
+
+.snowflake:nth-child(22) {
+  --size: 1vw;
+  --left-ini: 1vw;
+  --left-end: -7vw;
+  left: 99vw;
+  animation: snowfall 6s linear infinite;
+  animation-delay: -9s;
+}
+
+.snowflake:nth-child(23) {
+  --size: 0.6vw;
+  --left-ini: -9vw;
+  --left-end: 5vw;
+  left: 12vw;
+  animation: snowfall 10s linear infinite;
+  animation-delay: -6s;
+}
+
+.snowflake:nth-child(24) {
+  --size: 0.2vw;
+  --left-ini: 6vw;
+  --left-end: 0vw;
+  left: 85vw;
+  animation: snowfall 12s linear infinite;
+  animation-delay: -4s;
+}
+
+.snowflake:nth-child(25) {
+  --size: 0.4vw;
+  --left-ini: -2vw;
+  --left-end: -8vw;
+  left: 92vw;
+  animation: snowfall 9s linear infinite;
+  animation-delay: -6s;
+}
+
+.snowflake:nth-child(26) {
+  --size: 0.8vw;
+  --left-ini: -1vw;
+  --left-end: -8vw;
+  left: 79vw;
+  animation: snowfall 13s linear infinite;
+  animation-delay: -9s;
+}
+
+.snowflake:nth-child(27) {
+  --size: 1vw;
+  --left-ini: -9vw;
+  --left-end: -2vw;
+  left: 87vw;
+  animation: snowfall 11s linear infinite;
+  animation-delay: -9s;
+}
+
+.snowflake:nth-child(28) {
+  --size: 0.6vw;
+  --left-ini: 0vw;
+  --left-end: -8vw;
+  left: 10vw;
+  animation: snowfall 11s linear infinite;
+  animation-delay: -10s;
+}
+
+.snowflake:nth-child(29) {
+  --size: 1vw;
+  --left-ini: 5vw;
+  --left-end: 10vw;
+  left: 64vw;
+  animation: snowfall 15s linear infinite;
+  animation-delay: -4s;
+}
+
+.snowflake:nth-child(30) {
+  --size: 1vw;
+  --left-ini: 5vw;
+  --left-end: -3vw;
+  left: 28vw;
+  animation: snowfall 10s linear infinite;
+  animation-delay: -9s;
+}
+
+.snowflake:nth-child(31) {
+  --size: 0.4vw;
+  --left-ini: 9vw;
+  --left-end: 10vw;
+  left: 94vw;
+  animation: snowfall 10s linear infinite;
+  animation-delay: -1s;
+}
+
+.snowflake:nth-child(32) {
+  --size: 1vw;
+  --left-ini: 9vw;
+  --left-end: -2vw;
+  left: 13vw;
+  animation: snowfall 13s linear infinite;
+  animation-delay: -5s;
+}
+
+.snowflake:nth-child(33) {
+  --size: 0.4vw;
+  --left-ini: 3vw;
+  --left-end: 10vw;
+  left: 16vw;
+  animation: snowfall 9s linear infinite;
+  animation-delay: -3s;
+}
+
+.snowflake:nth-child(34) {
+  --size: 0.2vw;
+  --left-ini: 0vw;
+  --left-end: 7vw;
+  left: 63vw;
+  animation: snowfall 15s linear infinite;
+  animation-delay: -3s;
+}
+
+.snowflake:nth-child(35) {
+  --size: 1vw;
+  --left-ini: 0vw;
+  --left-end: -2vw;
+  left: 93vw;
+  animation: snowfall 14s linear infinite;
+  animation-delay: -7s;
+}
+
+.snowflake:nth-child(36) {
+  --size: 0.4vw;
+  --left-ini: 4vw;
+  --left-end: -3vw;
+  left: 59vw;
+  animation: snowfall 15s linear infinite;
+  animation-delay: -2s;
+}
+
+.snowflake:nth-child(37) {
+  --size: 0.4vw;
+  --left-ini: 2vw;
+  --left-end: 0vw;
+  left: 47vw;
+  animation: snowfall 13s linear infinite;
+  animation-delay: -6s;
+}
+
+.snowflake:nth-child(38) {
+  --size: 0.4vw;
+  --left-ini: -2vw;
+  --left-end: 6vw;
+  left: 18vw;
+  animation: snowfall 15s linear infinite;
+  animation-delay: -6s;
+}
+
+.snowflake:nth-child(39) {
+  --size: 0.8vw;
+  --left-ini: -9vw;
+  --left-end: -1vw;
+  left: 3vw;
+  animation: snowfall 7s linear infinite;
+  animation-delay: -9s;
+}
+
+.snowflake:nth-child(40) {
+  --size: 0.6vw;
+  --left-ini: -4vw;
+  --left-end: 7vw;
+  left: 4vw;
+  animation: snowfall 10s linear infinite;
+  animation-delay: -7s;
+}
+
+.snowflake:nth-child(41) {
+  --size: 0.4vw;
+  --left-ini: -1vw;
+  --left-end: -5vw;
+  left: 43vw;
+  animation: snowfall 13s linear infinite;
+  animation-delay: -4s;
+}
+
+.snowflake:nth-child(42) {
+  --size: 0.6vw;
+  --left-ini: 6vw;
+  --left-end: -5vw;
+  left: 39vw;
+  animation: snowfall 11s linear infinite;
+  animation-delay: -9s;
+}
+
+.snowflake:nth-child(43) {
+  --size: 0.2vw;
+  --left-ini: -3vw;
+  --left-end: 0vw;
+  left: 56vw;
+  animation: snowfall 7s linear infinite;
+  animation-delay: -5s;
+}
+
+.snowflake:nth-child(44) {
+  --size: 1vw;
+  --left-ini: -7vw;
+  --left-end: -3vw;
+  left: 30vw;
+  animation: snowfall 13s linear infinite;
+  animation-delay: -4s;
+}
+
+.snowflake:nth-child(45) {
+  --size: 0.2vw;
+  --left-ini: 3vw;
+  --left-end: 4vw;
+  left: 12vw;
+  animation: snowfall 10s linear infinite;
+  animation-delay: -7s;
+}
+
+.snowflake:nth-child(46) {
+  --size: 0.2vw;
+  --left-ini: -8vw;
+  --left-end: -2vw;
+  left: 58vw;
+  animation: snowfall 6s linear infinite;
+  animation-delay: -5s;
+}
+
+.snowflake:nth-child(47) {
+  --size: 1vw;
+  --left-ini: -1vw;
+  --left-end: 1vw;
+  left: 46vw;
+  animation: snowfall 11s linear infinite;
+  animation-delay: -3s;
+}
+
+.snowflake:nth-child(48) {
+  --size: 0.6vw;
+  --left-ini: -5vw;
+  --left-end: 4vw;
+  left: 77vw;
+  animation: snowfall 9s linear infinite;
+  animation-delay: -9s;
+}
+
+.snowflake:nth-child(49) {
+  --size: 0.8vw;
+  --left-ini: 6vw;
+  --left-end: 0vw;
+  left: 83vw;
+  animation: snowfall 14s linear infinite;
+  animation-delay: -8s;
+}
+
+.snowflake:nth-child(50) {
+  --size: 1vw;
+  --left-ini: 3vw;
+  --left-end: 1vw;
+  left: 5vw;
+  animation: snowfall 7s linear infinite;
+  animation-delay: -3s;
+}
+
+.snowflake:nth-child(6n) {
+  filter: blur(1px);
+}
+
+/* Media Query */
+
+@media screen and (min-width:811px) {
+  .video-wrapper-mobile { 
+      display: none; 
     }
+}
+
+@media screen and (max-width:810px) {
+      .video-wrapper { 
+        display: none; 
+      }
+  }
