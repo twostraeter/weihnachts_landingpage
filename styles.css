@@ -75,7 +75,7 @@ table {
   margin: 1em auto;
 }
 
-.snowflake {
+/* .snowflake {
   --size: 1vw;
   width: var(--size);
   height: var(--size);
@@ -547,7 +547,7 @@ table {
 
 .snowflake:nth-child(6n) {
   filter: blur(1px);
-}
+} */
 
 /* Media Query */
 
