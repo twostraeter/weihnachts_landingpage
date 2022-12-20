@@ -52,10 +52,36 @@ table {
 
 .wrapper {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   height: 100vh;
   width: 100%;
+}
+
+h1 {  
+  margin-top: 20vh;
+  line-height: 1.6;
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.65);
+  background-color: orange;
+  padding: 20px;
+}
+
+a{
+text-decoration: none;
+align-self: flex-end;
+color: white;
+font-family: sans-serif;
+font-size: 1.25rem;
+text-align: center;
+width: 100vw;
+margin-top: 20vh;
 }
 
 .video-wrapper {
@@ -66,14 +92,14 @@ table {
   margin: 8rem auto 2em auto;
 }
 
-.logo {
+/* .logo {
   width: 120px;
   height: 50px;
   background: url(TWO_Logo.png);
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 1em auto;
-}
+  margin: 10em auto;
+} */
 
 /* Media Query */
 
