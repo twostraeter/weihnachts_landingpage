@@ -60,11 +60,11 @@ table {
 }
 
 /* Wieder einblenden wenn Timer benötigt */
-.banner {
+/* .banner {
   margin: 15em 0;
   padding: 20px;
   background-color: #ee7f00;
-}
+} */
 
 h1,h2 {  
   line-height: 1.6;
@@ -101,7 +101,7 @@ width: 100vw;
 }
 
 .video-wrapper-mobile {
-  margin: 8rem auto 2em auto;
+  margin: 8rem auto 10rem auto;
 }
 
 /* .logo {
