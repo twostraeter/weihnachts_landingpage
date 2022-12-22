@@ -122,7 +122,10 @@ width: 100vw;
 }
 
 @media screen and (max-width:810px) {
-      
+      body {
+        background-image: url(hintergrund_mobile.jpg);
+      }    
+
       .banner {
         margin: 2rem;
       }
